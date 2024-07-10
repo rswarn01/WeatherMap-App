@@ -12,9 +12,8 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 
-Install Dependencies
+Install Dependencies:
 pip install -r requirements.txt
-
 
 Configure Django Settings
 Update the DATABASES configuration in weather_app/settings.py to match your PostgreSQL database settings.
@@ -50,7 +49,7 @@ celery -A weather_app worker --loglevel=info
 Start Celery Beat (for periodic tasks) (running every 30 minutes)
 celery -A weather_app beat --loglevel=info
 
-Example Requests and Responses
+Example Requests and Responses:
 Fetch Weather Data for a City
 Endpoint: GET /api/weather/{city}/
 
