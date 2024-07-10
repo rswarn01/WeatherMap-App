@@ -1,4 +1,5 @@
 # WeatherMap-App
+Used Third party OpenWeatherMap API ((link)[https://openweathermap.org/api]) to get weather data.
 
 - Setup and Run the Application
   Clone the Repository
