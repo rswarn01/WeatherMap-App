@@ -21,11 +21,11 @@ Update the DATABASES configuration in weather_app/settings.py to match your Post
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_db_name',
-        'USER': 'your_db_user',
-        'PASSWORD': 'your_db_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
+            'NAME': 'your_db_name',
+            'USER': 'your_db_user',
+            'PASSWORD': 'your_db_password',
+            'HOST': 'localhost',
+            'PORT': '5432',
     }
 }
 
