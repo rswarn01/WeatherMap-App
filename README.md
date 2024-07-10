@@ -1,6 +1,5 @@
 # WeatherMap-App
 
-
 Setup and Run the Application
 Clone the Repository
 
